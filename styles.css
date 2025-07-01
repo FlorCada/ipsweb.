@@ -1,0 +1,68 @@
+html, body {
+    html, body {
+        height: 100%; /* Asegúrate de que html y body ocupen el 100% de la altura */
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('ips.png'); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        margin: 0;
+        padding: 20px;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.8); 
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center; 
+        padding: 20px; /* Añadir padding para un mejor espaciado interno */
+    }
+    
+    .logo {
+        max-width: 100%; 
+        height: auto; 
+        margin-bottom: 20px; 
+    }
+    
+    h1 {
+        color: #28a745; 
+    }
+    
+    label {
+        display: block;
+        margin: 10px 0 5px;
+    }
+    
+    input {
+        width: calc(100% - 16px); /* Ajustar el ancho para que se alinee con el contenedor */
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #28a745; 
+        border-radius: 4px; 
+        box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    }
+    
+    button {
+        width: calc(100% - 16px); /* Ajustar el ancho para que se alinee con el contenedor */
+        padding: 10px;
+        background-color: #28a745; 
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #218838; 
+    }
+    
+    .result {
+        margin-top: 20px;
+        font-size: 1.2em;
+        color: #333; 
+    }
